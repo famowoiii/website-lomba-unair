@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+body {
+  min-height: 1000px;
+
+  min-width: fit-content;
+}
+#map {
+  height: 400px;
+  width: 100%;
+}
+.contact-us-welcome {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.section-6-table-of-content {
+  display: flex;
+  justify-content: space-around;
+  min-width: fit-content;
+}
+.informasi-cuaca {
+  display: flex;
+  min-width: fit-content;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.tombol-submit {
+  justify-content: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 5rem;
+  padding-left: 3px;
+  border-radius: 7px;
+  background-color: rgb(79, 157, 221);
+}
+#contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: fit-content;
+  max-width: 10rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  background-color: rgb(29, 67, 117);
+  border-radius: 30px;
+  gap: 8px;
+  height: 23rem;
+}
+.section-3 {
+  background-image: url("Background-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  min-height: fit-content;
+}
+.section-5 {
+  min-height: fit-content;
+  background-color: #4389da;
+}
+.section-6 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  min-height: fit-content;
+  flex-direction: column;
+  gap: 11rem;
+
+  justify-content: center;
+}
+
+.container-section-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  gap: 1rem;
+  margin-left: 4rem;
+}
+.container-section-5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.pap {
+  border-radius: 11px;
+  background-color: rgb(79, 157, 221);
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.svg-2 {
+  width: 100%;
+}
+.hero-surabaya {
+  margin-left: 50rem;
+  height: 850px;
+  position: absolute;
+  z-index: 1;
+}
+
+.card {
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 10px;
+}
+.card2 {
+  width: 1rem;
+  height: 450px;
+  background-color: aqua;
+}
+.nav .container-fluid {
+  display: flex;
+}
+.section-1 {
+  display: flex;
+  min-height: 46rem;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url("Background 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p {
+  margin-right: -4rem;
+}
+
+.svg-1 {
+  width: 100%;
+}
+.svg-3 {
+  width: 100%;
+  height: auto;
+}
+.section-intro-welcome {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.slidewrap {
+  width: 60rem;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+}
+.SPAN {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .hero-surabaya {
+    margin-left: 9rem;
+  }
+  .container-section-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-surabaya {
+    margin-left: 30rem;
+  }
+  .card {
+    width: auto;
+  }
+  .card2 {
+    width: auto;
+    display: block;
+  }
+}
